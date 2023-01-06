@@ -25,6 +25,7 @@
     font-size: 16px;
     color: #444343;
     margin-bottom: 32px;
+    line-height: 1.5em;
 
 }
 /* Button style */
@@ -37,4 +38,45 @@
     border: 0;
     margin-bottom: 166px;
     border-radius: 5px;
+}
+/* styling main portion */
+/* styling section one */
+.firstsection{
+    display: flex;
+    margin-left: 206px;
+    margin-top: 131px;
+}
+.first-section-passage{
+    margin-right: 322px;
+    
+}
+.first-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-bottom: 24px;
+    margin-left: 87px;
+}
+.first-section-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-left: 87px;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+}
+.first-section-subtitle-list{
+    margin-left: 50px;
+   
+    
+}
+.first-section-subtitle-list ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    
+}
+.first-section-subtitle-list ul li i{
+    margin-right: 8px;
+    color: rgb(163, 247, 163);
+    
 }
