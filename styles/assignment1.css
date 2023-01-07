@@ -63,7 +63,7 @@
     color: #444343;
     margin-left: 87px;
     margin-bottom: 16px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 .failure-section-subtitle-list{
     margin-left: 50px;
@@ -73,7 +73,8 @@
 }
 .failure-section-subtitle-list ul li{
     list-style: none;
-    margin-bottom: 5px;
+    line-height: 2em;
+    
     
 }
 .failure-section-subtitle-list ul li i{
@@ -160,7 +161,7 @@
 .futuregoals-section-title{
     font-weight: 700;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: white;
 
@@ -175,7 +176,7 @@
     color: #444343;
     margin-left: -30px;
     margin-bottom: 16px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 .futuregoals-section-subtitle-list ul li{
     list-style: none;
@@ -217,5 +218,73 @@ textarea{
     border-radius: 5px;
 }
 .yourfuture-title i{
-    color:white
+    color:white;
+}
+/* styling the footer section future */
+.footer{
+    background: #151414;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-top: 130px;
+    display: flex;
+
+}
+.future{
+    margin-left: 230px;
+    margin-right: 250px;
+   
+    
+    
+}
+.future-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.future-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 2em;
+}
+.future-icon img{
+    margin-right: 16px; 
+}
+.futureform{
+    margin-right:300px;
+}
+.futureform-title{
+    font-weight: 600;
+    font-size: 25px; 
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 31px;
+
+}
+.futureform input{
+    background-color: transparent;
+    border: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    width: 300px;
+    height:50px;
+    border-radius: 5px;
+}
+.futureform input::placeholder {
+    font-weight: 400;
+font-size: 16px;
+
+    color: white;
+}
+.future-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background:#FFFFFF;;
+    padding: 20px 36px;
+    border: 0;
+    margin-top: 16px;
+    border-radius: 5px;
 }
