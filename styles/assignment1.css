@@ -41,23 +41,23 @@
 }
 /* styling main portion */
 /* styling section one */
-.firstsection{
+.failure-section{
     display: flex;
     margin-left: 206px;
     margin-top: 131px;
 }
-.first-section-passage{
+.failure-section-passage{
     margin-right: 322px;
     
 }
-.first-section-title{
+.failure-section-title{
     font-weight: 700;
     font-size: 40px;
     margin-top: 250px;
     margin-bottom: 24px;
     margin-left: 87px;
 }
-.first-section-subtitle{
+.failure-section-subtitle{
     font-weight: 400;
     font-size: 16px;
     color: #444343;
@@ -65,18 +65,51 @@
     margin-bottom: 16px;
     line-height: 1.5em;
 }
-.first-section-subtitle-list{
+.failure-section-subtitle-list{
     margin-left: 50px;
    
     
 }
-.first-section-subtitle-list ul li{
+.failure-section-subtitle-list ul li{
     list-style: none;
     margin-bottom: 5px;
     
 }
-.first-section-subtitle-list ul li i{
+.failure-section-subtitle-list ul li i{
     margin-right: 8px;
     color: rgb(163, 247, 163);
     
+}
+/* Styling plans section */
+.plans-section{
+    color: #151414;
+    
+}
+.plans-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 55px;
+
+}
+.plans-container{
+    display: flex;
+    text-align: center;
+    margin-left: 230px;
+}
+.plans{
+    margin-right: 86px;
+}
+.plans-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.plans-des{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+    margin-bottom: 130px;
 }
