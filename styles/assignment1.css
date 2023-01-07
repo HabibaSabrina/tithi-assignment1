@@ -40,7 +40,7 @@
     border-radius: 5px;
 }
 /* styling main portion */
-/* styling section one */
+/* styling section one failure */
 .failure-section{
     display: flex;
     margin-left: 206px;
@@ -49,6 +49,13 @@
 .failure-section-passage{
     margin-right: 322px;
     
+}
+.failure-firstimage{
+    background-image: url('../images/circle.png');
+    background-repeat: no-repeat;
+    background-size: 535px;
+    background-position: bottom;
+
 }
 .failure-section-title{
     font-weight: 700;
