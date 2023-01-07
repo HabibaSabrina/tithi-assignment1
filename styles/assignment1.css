@@ -113,3 +113,32 @@
     color: #737272;
     margin-bottom: 130px;
 }
+/* Styling positive section */
+.positive{
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-left: 190px ;
+    margin-bottom: 130px;
+}
+.positive-title{
+    padding-top: 60px;
+    margin-left: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 750px;
+   
+}
+.positive-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background:#FFFFFF;;
+    padding: 21px 36px;
+    border: 0;
+    margin-top: 24px;
+    margin-left: 64px;
+    margin-bottom: 59px;
+    border-radius: 5px;
+
+}
