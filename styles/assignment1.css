@@ -67,6 +67,7 @@
 }
 .failure-section-subtitle-list{
     margin-left: 50px;
+    color: #444343;
    
     
 }
@@ -141,4 +142,80 @@
     margin-bottom: 59px;
     border-radius: 5px;
 
+}
+/* styling section 4 future goals */
+.main-futuregoals{
+    margin-left: 190px;
+    margin-right: 190px;
+    background-color: rgb(179, 179, 179);
+    padding-left: 150px;
+    border-radius: 5px;
+}
+.futuregoals{
+    margin-left: 30px;
+    display: flex;
+    gap: 80px;
+    
+}
+.futuregoals-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.fututreimage{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.futuregoals-section-subtitle-list{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-left: -30px;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+}
+.futuregoals-section-subtitle-list ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+.futuregoals-section-subtitle-list ul li i{
+    margin-right: 8px;
+    color: white;
+    
+}
+.yourfuture{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+.yourfuture-title{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+textarea{
+    border: 10px;
+    border-style:double;
+    border-color: #fcd229;
+}
+.send{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background:#fcd229;
+    padding: 15px 45px;
+    border: 0;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+.yourfuture-title i{
+    color:white
 }
